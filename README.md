@@ -20,11 +20,11 @@ To run the application, follow these steps:
 
 1. Ensure you have the required dependencies installed in your VS Code terminal:
 
-  a. `pip install flask`
+   `pip install flask`
    
-  b. `pip install pillow`
+   `pip install pillow`
 
-  c. `pip install pytesseract`
+   `pip install pytesseract`
 
    `pip install pdfplumber`
 
