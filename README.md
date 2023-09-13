@@ -19,16 +19,16 @@ The project is organized into the following files:
 To run the application, follow these steps:
 
 1. Ensure you have the required dependencies installed in your VS Code terminal:
-
-   "pip install flask"
+```bash
+   pip install flask
    
-   "pip install pillow"
+   pip install pillow
 
-   "pip install pytesseract"
+   pip install pytesseract
 
-   "pip install pdfplumber"
+   pip install pdfplumber
 
-   "pip install python-docx"
+   pip install python-docx
 
 Start the Flask application by running the following command in your terminal:
 
