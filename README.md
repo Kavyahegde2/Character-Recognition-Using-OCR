@@ -34,15 +34,18 @@ Start the Flask application by running the following command in your terminal:
 Open your web browser and navigate to http://localhost:5000 to access the project's frontend.
 
 
-Frontend
+Frontend:
+
 The frontend of the project is built using HTML templates located in the templates folder. The CSS styles for the frontend can be found in the static folder.
 
-Usage
+Usage:
+
 Upload an image, document (DOCX), or PDF file through the web interface.
 
 Click the "Recognize Text" button to perform character recognition on the uploaded file.
 
 View the recognized text on the web page.
 
-Contributing
+Contributing:
+
 If you would like to contribute to this project, feel free to submit a pull request. Contributions are always welcome!
