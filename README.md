@@ -28,7 +28,7 @@ To run the application, follow these steps:
 
 Start the Flask application by running the following command in your terminal:
 
-python app.py
+      "python app.py"
 
 
 Open your web browser and navigate to http://localhost:5000 to access the project's frontend.
