@@ -19,7 +19,7 @@ The project is organized into the following files:
 To run the application, follow these steps:
 
 1. Ensure you have the required dependencies installed in your VS Code terminal:
-```bash
+
    pip install flask
    
    pip install pillow
