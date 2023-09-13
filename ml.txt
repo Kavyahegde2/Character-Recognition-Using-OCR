@@ -1,0 +1,97 @@
+import pandas as pd
+df = pd.read_csv('iris.csv')
+x = df.iloc[:, :-1]  
+y = df.iloc[:, -1] 
+print(x)
+print(y)
+Rohan T5:32 PM
+setosa_stats = df[df['species'] == 'Iris-setosa'].describe()
+versicolor_stats = df[df['species'] == 'Iris-versicolor'].describe()
+virginica_stats = df[df['species'] == 'Iris-virginica'].describe()
+
+print("Statistics for Iris-setosa:")
+print(setosa_stats)
+
+print("\nStatistics for Iris-versicolor:")
+print(versicolor_stats)
+
+print("\nStatistics for Iris-virginica:")
+print(virginica_stats)
+Output is Statistics for Iris-setosa:
+       sepal_length  sepal_width  petal_length  petal_width
+count           0.0          0.0           0.0          0.0
+mean            NaN          NaN           NaN          NaN
+std             NaN          NaN           NaN          NaN
+min             NaN          NaN           NaN          NaN
+25%             NaN          NaN           NaN          NaN
+50%             NaN          NaN           NaN          NaN
+75%             NaN          NaN
+Rohan T4:23 PM
+import pandas as pd
+df = pd.read_csv('iris.csv')
+x = df.iloc[:, :-1]  
+y = df.iloc[:, -1] 
+print(x)
+print(y)
+Chaithrashree K4:24 PM
+import pandas as pd
+>>> print(pd.__version__)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: module 'pandas' has no attribute '__version__'
+>>>
+Chandrakala V4:32 PM
+!pip install pandas==1.5.3
+Sindhu B N4:53 PM
+import pandas as pd
+data = pd.read_csv("Iris.csv")
+data = data.drop('Id',axis=1)
+X = data.iloc[:, :-1].values
+y = data.iloc[:, 4].values
+print("Attributes:\n")
+print(X)
+print("Labels:")
+print(y)
+Shreya Nayak4:53 PM
+3.11.3
+Sindhu B N4:53 PM
+3.11.4
+S SURYA4:54 PM
+3.11.4
+Rohan T4:54 PM
+Python 3.10.9
+S SURYA4:55 PM
+1.4.4 mam
+Chandrakala V4:55 PM
+!pip install pandas==1.5.3
+Rohan T5:00 PM
+import pandas as pd
+df = pd.read_csv('iris.csv')
+x = df.iloc[:, :-1]  
+y = df.iloc[:, -1] 
+print(x)
+print(y)
+Rohan T5:32 PM
+setosa_stats = df[df['species'] == 'Iris-setosa'].describe()
+versicolor_stats = df[df['species'] == 'Iris-versicolor'].describe()
+virginica_stats = df[df['species'] == 'Iris-virginica'].describe()
+
+print("Statistics for Iris-setosa:")
+print(setosa_stats)
+
+print("\nStatistics for Iris-versicolor:")
+print(versicolor_stats)
+
+print("\nStatistics for Iris-virginica:")
+print(virginica_stats)
+Output is Statistics for Iris-setosa:
+       sepal_length  sepal_width  petal_length  petal_width
+count           0.0          0.0           0.0          0.0
+mean            NaN          NaN           NaN          NaN
+std             NaN          NaN           NaN          NaN
+min             NaN          NaN           NaN          NaN
+25%             NaN          NaN           NaN          NaN
+50%             NaN          NaN           NaN          NaN
+75%             NaN          NaN
+Chandrakala V5:34 PM
+setosa_stats = df[df['species'] == 'Iris-setosa']
